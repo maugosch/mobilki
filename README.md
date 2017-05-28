@@ -1,7 +1,7 @@
 # FinAnalysis
-Analizator finansowy
+##Analizator finansowy
 
-Funkcjonalności:
+##Funkcjonalności:
 
 1. Rejestracja konta użytkownika i logowanie do aplikacji
 2. Wybór wskaźników i modeli finansowych
