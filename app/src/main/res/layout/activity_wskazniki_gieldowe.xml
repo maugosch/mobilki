@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ob"
+    tools:context="com.example.sony.androidproject.WskaznikiGieldowe">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="13dp"
+        android:text="Wpisz odpowiednie wartości"
+        android:textColor="?android:attr/colorButtonNormal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/zyskNetto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="23dp"
+        android:text="Zysk netto"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/iloscAkcjiZwyklych"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/zyskNaAkcje"
+        android:text="Ilośc akcji zwykłych"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/zyskPrzeznaczonyNaDywidenty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cenaAkcji"
+        android:text="Zysk przeznaczony na dywidenty"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/cenaAkcji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/kapitałWłasny"
+        android:text="Cena akcji"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/zyskNaAkcje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/zyskPrzeznaczonyNaDywidenty"
+        android:text="Zysk na akcję"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/kapitałWłasny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/przychodZeSprzedazyNa1Akcje"
+        android:text="Kapitał własny"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/przychodZeSprzedazyNa1Akcje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/przecietnaIloscAkcji"
+        android:text="Przychód ze sprzedaży na 1 akcję"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/przecietnaIloscAkcji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/zyskNetto"
+        android:text="Przeciętna ilość akcji"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+</RelativeLayout>

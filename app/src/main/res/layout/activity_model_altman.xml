@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ob"
+    tools:context="com.example.sony.androidproject.ModelAltman">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text=" Wpisz odpowiednie wartości"
+        android:textColor="?attr/colorButtonNormal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/kapitalObrotowyNetto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="35dp"
+        android:text="Kapitał obrotowy netto"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/aktywa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/kapitalObrotowyNetto"
+        android:text="Aktywa"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/zyskiZatrzymane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/aktywa"
+        android:text="Zyski zatrzymane"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ebit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/zyskiZatrzymane"
+        android:text="EBIT"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/wartoscRynkowaKapitaluWlasnego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ebit"
+        android:text="Wartość rynkowa kapitału własnego"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/zobowiazaniaOgolem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/wartoscRynkowaKapitaluWlasnego"
+        android:text="Zobowiązania ogółem"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/przychodyZeSprzedazy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/zobowiazaniaOgolem"
+        android:text="Przychody ze sprzedaży"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+</RelativeLayout>

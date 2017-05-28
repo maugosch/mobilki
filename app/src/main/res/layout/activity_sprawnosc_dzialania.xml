@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ob"
+    tools:context="com.example.sony.androidproject.SprawnoscDzialania">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Wpisz odpowiednie wartości"
+        android:textAlignment="center"
+        android:textColor="?attr/colorButtonNormal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/przecietnyStanNaleznosci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/przychodZeSprzedazy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Przeciętny stan należności"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/przychodZeSprzedazy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cyklNaleznosci"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Przychód ze sprzedaży"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/liczbaDniBadanegoOkresu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Liczba dni badanego okresu"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/przecietnyStanZapasow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/liczbaDniBadanegoOkresu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Przeciętny stan zapasów"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/kosztyOperacyjne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/przecietnyStanZapasow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Koszty operacyjne"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/przecietnyStanZobowiazanKrotkoterminowych"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cyklZapasow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Przeciętny stan zobowiązań krótkoterm."
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/przychodyZeSprzedaży"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/kosztyOperacyjne"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Przychody ze sprzedaży"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/cyklZapasow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/przychodyZeSprzedaży"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Cykl zapasów"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/cyklNaleznosci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cyklZobowiazanKrotkoterminowych"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Cykl należności"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/cyklZobowiazanKrotkoterminowych"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/aktywaOgółem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Cykl zobowiązań krótkoterminowych"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/aktywaOgółem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sprzedazNetto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Aktywa ogółem"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/sprzedazNetto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/przecietnyStanZobowiazanKrotkoterminowych"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp"
+        android:text="Sprzedaż netto"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+</RelativeLayout>
