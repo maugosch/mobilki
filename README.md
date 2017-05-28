@@ -9,7 +9,7 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 1. Rejestracja konta użytkownika i logowanie do aplikacji
 2. Wybór wskaźników i modeli finansowych spośród dostępnych: <br>
-- płynność finansowa <br>
+⋅⋅- płynność finansowa <br>
 -wskaźnik wypłacalności <br>
 -wskaźnik giełdowy <br>
 -sprawność działania <br>
