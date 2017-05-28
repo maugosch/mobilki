@@ -4,106 +4,96 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ob"
     tools:context="com.example.sony.androidproject.ModelHolda">
 
     <TextView
-        android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" Wpisz odpowiednie wartości"
-        android:textColor="?attr/colorButtonNormal"
+        android:text="Proszę wpisać odpowiednią liczbę"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:id="@+id/textView5" />
 
     <EditText
         android:id="@+id/aktywaObrotowe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Aktywa obrotowe"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView5"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView5"
-        android:layout_marginTop="37dp"
-        android:text="Aktywa obrotowe"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:layout_marginTop="37dp" />
 
     <EditText
         android:id="@+id/zobowiazaniaKrotkoterminowe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/aktywaObrotowe"
         android:text="Zobowiązania krótkoterminowe"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:layout_below="@+id/aktywaObrotowe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/zobowiazania"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/zobowiazaniaKrotkoterminowe"
         android:text="Zobowiązania"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:layout_below="@+id/zobowiazaniaKrotkoterminowe"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/aktywaHolda"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/zobowiazania"
         android:text="Aktywa"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:layout_below="@+id/zobowiazania"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/wynikNetto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/aktywaHolda"
         android:text="Wynik netto"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:layout_below="@+id/aktywaHolda"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
     <EditText
         android:id="@+id/stanSredniAktywow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/wynikNetto"
         android:text="Stan średni aktywów"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:layout_below="@+id/wynikNetto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/sprzedaz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/stanSredniAktywow"
         android:text="Sprzedaż"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:layout_below="@+id/stanSredniAktywow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:id="@+id/kosztyWlasneSprzedazy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:text="Koszty własne sprrzedaży"
+        android:textSize="14sp"
         android:layout_below="@+id/sprzedaz"
-        android:text="Koszty własne sprzedaży"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
         </RelativeLayout>
 

@@ -25,6 +25,9 @@
         <activity android:name=".ModelAltman" />
         <activity android:name=".ModelHolda" />
         <activity android:name=".MainMainActivity"></activity>
+
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

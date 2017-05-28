@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "445357892606",
+    "firebase_url": "https://finanse-aa551.firebaseio.com",
+    "project_id": "finanse-aa551",
+    "storage_bucket": "finanse-aa551.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445357892606:android:96a1a723a9c8750f",
+        "android_client_info": {
+          "package_name": "com.example.sony.androidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445357892606-fb4keco6hj4h562evtkfdkskuasird1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sony.androidproject",
+            "certificate_hash": "862f4e6f8a561824597749c90ff6f3db54ef3ce0"
+          }
+        },
+        {
+          "client_id": "445357892606-juvpnc9l932s7d8obmn3k7i4gk4ltncl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC68usf8TXh17cvUMiM_vCqE6jQfXJbkPc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445357892606-juvpnc9l932s7d8obmn3k7i4gk4ltncl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
