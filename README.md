@@ -1,6 +1,9 @@
-# FinAnalysis 
-======
-## Analizator finansowy
+# FinAnalysis - analizator finansowy
+
+## Twórcy projektu:
+Małgorzata Graja 166711 KrDZIs3012Io
+Małgorzata Kindrat 186824 KrDZIs3012Io
+Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 ## Funkcjonalności:
 
@@ -15,4 +18,6 @@
 3. Wprowadzenie danych na serwer
 3. Analiza sytuacji finansowej spółki na podstawie wprowadzonych danych
 
-Dokumentacja: 
+## Dokumentacja: 
+### Wykorzystane klasy:
+
