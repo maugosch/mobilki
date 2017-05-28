@@ -19,6 +19,6 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 3. Analiza sytuacji finansowej spółki na podstawie wprowadzonych danych
 
 ## Dokumentacja 
-### Wykorzystane klasy:
+### Wykorzystane klasy
 
 ### Screeny z aplikacji
