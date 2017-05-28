@@ -1,3 +1,3 @@
-# mobilki
+# FinAnalysis
+#Analizator finansowy
 
-#blabla
