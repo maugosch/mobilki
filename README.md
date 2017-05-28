@@ -1,4 +1,5 @@
 # FinAnalysis 
+======
 ## Analizator finansowy
 
 ## Funkcjonalności:
