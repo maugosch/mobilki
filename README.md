@@ -1,5 +1,5 @@
 # *FinAnalysis*
-#Analizator finansowy
+##Analizator finansowy
 
 ##Funkcjonalności:
 
