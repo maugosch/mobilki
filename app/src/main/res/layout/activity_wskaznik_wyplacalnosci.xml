@@ -54,33 +54,13 @@
                 android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/zobowiazania"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/nadwyzkaFinansowa"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:text="Zobowiązania"
-                android:textSize="14sp" />
-
-            <EditText
                 android:id="@+id/zobowiazaniaDlugoterminowe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_above="@+id/rezerwy"
+                android:layout_above="@+id/przychodyZeSprzedazy"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:text="Zobowiązania długoterminowe"
-                android:textSize="14sp" />
-
-            <EditText
-                android:id="@+id/majatekOgolem"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/zobowiazaniaDlugoterminowe"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:text="Majątek ogółem"
                 android:textSize="14sp" />
 
             <EditText
@@ -104,23 +84,13 @@
                 android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/podategoDochodowy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/zyskNetto"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:text="Podatek dochodowy"
-                android:textSize="14sp" />
-
-            <EditText
-                android:id="@+id/nadwyzkaFinansowa"
+                android:id="@+id/przecietnyStanZapasow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/majatekOgolem"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Nadwyżka finansowa"
+                android:text="Przecietny Stan Zapasów"
                 android:textSize="14sp" />
 
             <EditText
@@ -134,14 +104,65 @@
                 android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/rezerwy"
+                android:id="@+id/przychodyZeSprzedazy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="Rezerwy"
+                android:text="Przychody ze sprzedazy"
                 android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/zyskBrutto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Zysk brutto"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/rataKapitalowa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Rata kapitaowa"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/Amortyzacja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Amortyzacja"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/przecientyStanZobowiazan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Przecietny stan zobowiazan ogolem"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/dodatniePrzeplywyOP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Dodatnie przeplywy netto z dzialalnosci operacyjnej"
+                android:textSize="14sp" />
+
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

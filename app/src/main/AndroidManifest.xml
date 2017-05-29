@@ -36,7 +36,12 @@
         <activity android:name=".MainMainActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".PlynnoscFinansowa2" />
-
+        <activity
+            android:name=".WskaznikRentownosci2"
+            android:label="@string/title_activity_wskaznik_rentownosci2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WskaznikiGieldowe2" />
+        <activity android:name=".WskaznikWyplacalnosci2"></activity>
     </application>
 
 </manifest>
