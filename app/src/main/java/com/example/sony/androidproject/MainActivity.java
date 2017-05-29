@@ -13,18 +13,22 @@ import static com.example.sony.androidproject.LoginActivity.M_EMAIL;
 public class MainActivity extends AppCompatActivity {
 
     private String mEmail;
+    private String mEmailTemp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         Intent intent = getIntent();
-        mEmail = intent.getStringExtra(M_EMAIL);
+        mEmailTemp = intent.getStringExtra(M_EMAIL);
+        mEmail = mEmailTemp.replace("@","-");
+        mEmail = mEmail.replace(".","-");
 
 
         // Capture the layout's TextView and set the string as its text
         TextView textView = (TextView) findViewById(R.id.wynik);
-        textView.setText("WITAJ " + mEmail);
+        textView.setText("WITAJ " + mEmailTemp);
     }
 
     public void wskaznikiFinansowe (View view){
