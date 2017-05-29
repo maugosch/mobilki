@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.sony.androidproject.WskaznikRentownosci">
 
+<<<<<<< HEAD
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -115,5 +116,105 @@
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
+=======
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proszę wpisać odpowiednią liczbę"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/zyskBiezacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zysk bieżący"
+        android:textSize="14sp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:id="@+id/strataWLatachUbieglych"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strata w latach ubiegłych"
+        android:textSize="14sp"
+        android:layout_below="@+id/zyskBiezacy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/kosztUzyskaniaPrzychodow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Koszt uzyskania przychodów"
+        android:textSize="14sp"
+        android:layout_below="@+id/strataWLatachUbieglych"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/przychodyZeSprzedazy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Przychody ze sprzedaży"
+        android:textSize="14sp"
+        android:layout_below="@+id/kosztUzyskaniaPrzychodow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/wynikFinansowyBrutto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik finansowy brutto"
+        android:textSize="14sp"
+        android:layout_below="@+id/przychodyZeSprzedazy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/wynikFinansowyNetto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik finansowy netto"
+        android:textSize="14sp"
+        android:layout_below="@+id/wynikFinansowyBrutto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/wynikFinansowy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wynik finansowy"
+        android:textSize="14sp"
+        android:layout_below="@+id/wynikFinansowyNetto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/aktywaOgolem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aktywa ogółem"
+        android:textSize="14sp"
+        android:layout_below="@+id/wynikFinansowy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/kapitalWlasny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kapitał własny"
+        android:textSize="14sp"
+        android:layout_below="@+id/aktywaOgolem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+>>>>>>> 157afc0dcced57ad5a228ff4f7b1eb5f6fd25cc7
 
 </RelativeLayout>
