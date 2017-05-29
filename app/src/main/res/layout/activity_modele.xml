@@ -4,41 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ob"
     tools:context="com.example.sony.androidproject.Modele">
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Modele upadłości firm: "
-        android:textColor="?attr/colorButtonNormal"
+        android:text="Modele upadłości firm: "
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/mainAltman"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView6"
-        android:layout_marginTop="39dp"
-        android:background="@color/colorAccent"
-        android:onClick="modelAltman"
         android:text="Model E. Altman"
-        android:textColor="@android:color/background_light" />
+        android:id="@+id/mainAltman"
+        android:onClick="modelAltman"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:id="@+id/mainHolda"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/mainAltman"
-        android:background="@color/colorPrimaryDark"
-        android:onClick="modelHolda"
         android:text="Model A. Hołda"
-        android:textColor="@android:color/background_light" />
+        android:id="@+id/mainHolda"
+        android:onClick="modelHolda"
+        android:layout_below="@+id/mainAltman"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

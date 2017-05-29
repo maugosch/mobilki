@@ -4,148 +4,145 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ob"
     tools:context="com.example.sony.androidproject.WskaznikWyplacalnosci">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" Wpisz odpowiednie wartości"
-        android:textColor="?attr/colorButtonNormal"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/kapitalObcy"
+    <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/zobowiazania"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Kapitał obcy"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/aktywaOgolem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="12dp"
-        android:text="Aktywa ogółem"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <EditText
-        android:id="@+id/zyskNetto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/aktywaOgolem"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Zysk netto"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proszę wpisać odpowiednie liczby"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/podategoDochodowy"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/zyskNetto"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Podatek dochodowy"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/odsetki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/podategoDochodowy"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Odsetki"
+                android:textSize="14sp" />
 
-    <EditText
-        android:id="@+id/odsetki"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/podategoDochodowy"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Odsetki"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/kapitalWlasny"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/zobowiazaniaOgolem"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Kapitał własny"
+                android:textSize="14sp" />
 
-    <EditText
-        android:id="@+id/zobowiazaniaOgolem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/odsetki"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Zobowiązania ogółem"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/kapitalObcy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/zobowiazania"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Kapitał obcy"
+                android:textSize="14sp" />
 
-    <EditText
-        android:id="@+id/kapitalWlasny"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/zobowiazaniaOgolem"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Kapitał własny"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/zobowiazania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/nadwyzkaFinansowa"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Zobowiązania"
+                android:textSize="14sp" />
 
-    <EditText
-        android:id="@+id/rezerwy"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        android:text="Rezerwy"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/zobowiazaniaDlugoterminowe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/rezerwy"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Zobowiązania długoterminowe"
+                android:textSize="14sp" />
 
-    <EditText
-        android:id="@+id/zobowiazaniaDlugoterminowe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/rezerwy"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Zobowiązania długoterminowe"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/majatekOgolem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/zobowiazaniaDlugoterminowe"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Majątek ogółem"
+                android:textSize="14sp" />
 
-    <EditText
-        android:id="@+id/majatekOgolem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/zobowiazaniaDlugoterminowe"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Majątek ogółem"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/zobowiazaniaOgolem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/odsetki"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Zobowiązania ogółem"
+                android:textSize="14sp" />
 
-    <EditText
-        android:id="@+id/nadwyzkaFinansowa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/majatekOgolem"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Nadwyżka finansowa"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/aktywaOgolem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Aktywa ogółem"
+                android:textSize="14sp" />
 
-    <EditText
-        android:id="@+id/zobowiazania"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/nadwyzkaFinansowa"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:text="Zobowiązania"
-        android:textColor="@android:color/background_light"
-        android:textSize="14sp" />
+            <EditText
+                android:id="@+id/podategoDochodowy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/zyskNetto"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Podatek dochodowy"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/nadwyzkaFinansowa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/majatekOgolem"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Nadwyżka finansowa"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/zyskNetto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/aktywaOgolem"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="Zysk netto"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/rezerwy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Rezerwy"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
 
 </RelativeLayout>

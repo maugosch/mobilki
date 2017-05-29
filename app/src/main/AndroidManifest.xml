@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sony.androidproject">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,7 +26,8 @@
         <activity android:name=".Modele" />
         <activity android:name=".ModelAltman" />
         <activity android:name=".ModelHolda" />
-        <activity android:name=".MainMainActivity"></activity>
+        <activity android:name=".MainMainActivity" />
+        <activity android:name=".PlynnoscFinansowa2"></activity>
     </application>
 
 </manifest>

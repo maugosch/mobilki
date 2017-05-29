@@ -4,59 +4,39 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:background="@drawable/x1511"
 tools:context="com.example.sony.androidproject.MainMainActivity">
 
+
 <TextView
-    android:id="@+id/textView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="sans-serif"
-    android:text="Analizator finansowy"
-    android:textColor="@android:color/holo_blue_dark"
-    android:textSize="30sp"
+    android:text="Analizator Finansowy"
+    android:textAlignment="center"
+    android:textSize="24sp"
     android:textStyle="bold"
-    android:layout_above="@+id/mainWskaznikiFinansowe"
+    android:layout_alignParentTop="true"
     android:layout_centerHorizontal="true"
-    android:layout_marginBottom="119dp" />
+    android:layout_marginTop="32dp" />
 
-<TextView
-    android:id="@+id/textView2"
+<Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_alignBottom="@+id/textView"
-    android:layout_centerHorizontal="true"
-    android:layout_marginBottom="52dp"
-    android:fontFamily="cursive"
-    android:text="FinAnalyze"
-    android:textColor="@android:color/black"
-    android:textSize="40sp" />
+    android:text="Wskaźniki finansowe"
+    android:id="@+id/mainWskaznikiFinansowe"
+    android:onClick="wskaznikiFinansowe"
+    android:layout_marginBottom="32dp"
+    android:layout_above="@+id/mainModeleUpadlosci"
+    android:layout_centerHorizontal="true" />
 
-    <Button
-        android:id="@+id/mainWskaznikiFinansowe"
-        style="@android:style/Widget.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/mainModeleUpadlosci"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
-        android:background="@color/colorPrimaryDark"
-        android:onClick="wskaznikiFinansowe"
-        android:text="  Wskaźniki finansowe  "
-        android:textAllCaps="true" />
-
-    <Button
-        android:id="@+id/mainModeleUpadlosci"
-        style="@android:style/Widget.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
-        android:background="@color/colorPrimaryDark"
-        android:onClick="modeleUpadlosci"
-        android:text="     Modele upadłości    "
-        android:textAllCaps="true" />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Modele upadłości"
+    android:id="@+id/mainModeleUpadlosci"
+    android:onClick="modeleUpadlosci"
+    android:layout_marginBottom="60dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

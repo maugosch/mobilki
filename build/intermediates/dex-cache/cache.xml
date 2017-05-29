@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\JavaPP3\FinancialApp\mobilki\app\libs\firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b54cf0400e2248d6c133c7b0a77dea1be09978cc">
+        <dex dex="C:\JavaPP3\FinancialApp\mobilki\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.5.2_8457f5608044574310c838cce2a1fce1cf8c1d3c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sony.androidproject.PlynnoscFinansowa2">
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="489dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wskaźnik płynności bieżącej Informuje o zdolności firmy do regulowania wymagalnych zobowiązań poprzez upłynnienie środków obrotowych. Za-lecany poziom optymalny tego wskaźnika wynosi 1.5-2.0. Wynik niższy oznacza zbyt niską płynność, co może wpływać na problemy w regulowaniu zobowiązań krótkotermi-nowych. Zbyt wysoki wskaźnik wskazuje na zamrożenie ka-pitałów własnych, przez co nie możliwe jest zwiększenie zyskowności firmy poprzez efektywne wykorzystanie kapi-tałów obcych. "
+            tools:text="opis wskźnika płynności bieżącej" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wskaźnik szybkiej płynności Określa zdolność do szybkiego uregulowania zobowiązań przy wykorzystaniu płynnych środków obrotowych. Poziom tego wskaźnika powinien kształtować się powyżej 1.0. Wy-nik poniżej może oznaczać problemy z regulowaniem zo-bowiązań krótkoterminowych. "
+            tools:text="wskaźnik szybkiej płynności - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wskaźnik płynności zaostrzony (wypłacalności gotówkowej) Określa zdolność do natychmiastowego uregulowania wy-magalnych zobowiązań wykorzystując wyłącznie środki pieniężne. Optymalny poziom tego wskaźnika wynosi po-wyżej 0.3. Wynik niższy oznacza możliwe problemy z regu-lowaniem zobowiązań finansowych.  "
+            tools:text="wskaźnik płynności zaostrzonej - opis" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
