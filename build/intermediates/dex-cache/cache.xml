@@ -2,49 +2,220 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\JavaPP3\FA_No1\mobilki\app\libs\firebase-client-android-2.5.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\0c79d4780e6191dfec15788eaefd4339d3a20e64\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b54cf0400e2248d6c133c7b0a77dea1be09978cc">
-        <dex dex="C:\JavaPP3\FA_No1\mobilki\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.5.2_8486b725e6347c0716349eb094ebbeaebe89baf7.jar" />
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e92f92007422ef4118d173ef89ebe04b18ee157\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Małgorzata Graja\.android\build-cache\7a7c2488ec521bfd7bee521eaa3a9e12540c69b7\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\3e373f6e85971d4bbaf84607252b89dc2adcad7d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6f5d60f1279b3af16d49653aea40a66c4361d658\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\2657398ff78f00899edf3b05e021030afb431ee5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aa90b8159eff8d8cbfed306bea001c7eb36264a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\1fb41c5c96de708de9f9c3e2d5510a56fbeb957f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d79c575e1d97b0298746a4c032a0c1dc201c2f82">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f4a955b8b5afdb45eac6621741f444e60d6ebe5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_ad885d9968531cd248ff7229237af431dbe89fed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\f4ffce42404c010ab75c275da49be431ecb48f22\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\JavaPP3\FA_No1\mobilki\app\build\intermediates\pre-dexed\debug\classes_36facffc5e68337c35f17104b872c2bd7ff29477.jar" />
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87fdb9b29e2c600f047c5406fe873bea6305b570\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\JavaPP3\FinancialApp\mobilki\app\libs\firebase-client-android-2.5.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\535fd3619cb57a4acb0765f61da250faba0a271f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_043571849114250a079de93a3a51ce5dbfce09bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e771855b26b9de63adad28e15dff01f046fe011b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\234131acb42e7f399674ab136f46220ac17e8198\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f83a631abfdb790591a720e0cfb5f41329831c3">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b499b23a230b244b6f443966a8e3281d4aae9441\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\2373acf0b6b9215aff5ec6ba527c4062ee7ca206\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa9bd0b2b24cf3e9399b34e86ae0430aa00a7b21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\cf8791dc53229a2a47f50180f08ab671fa1b41ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a534044236cf81b002604643d23e7ca56bd1ee0">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2f2e3d86e8de885045627fb5fa202249d621a0f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\75530dc22087ae2466e0297cdc4945a26055679b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_28075a35801fdf159a613b0b8297284d81062dd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\378dcdd5a7e996e97d5cdf6fb02c230e6f4cf9e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dec8ebeadd2fcfcf9b6e5458e87b834365a54b7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\9456c9eab9e7056285f65657598f474e932cc208\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da832806828ba407284c0c4b1d87b8f9ed9f2520">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_14ff0766563548e990b174b7437ec8d9d4cd2a26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\Desktop\mobilki\app\libs\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b54cf0400e2248d6c133c7b0a77dea1be09978cc">
-        <dex dex="C:\JavaPP3\FinancialApp\mobilki\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.5.2_8457f5608044574310c838cce2a1fce1cf8c1d3c.jar" />
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\2\firebase-client-android-2.5.2_99514c1cee8d40e470646d5e1624d3f2ae7b32c5\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Małgorzata Graja\.android\build-cache\32260c62f9384f26591b0fdc52336942e6c02ebc\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\JavaPP3\FA_No1\mobilki\app\build\intermediates\pre-dexed\debug\classes_95bee6905a951ebc3d4a949e0f3826c3f83b5275.jar" />
+        sha1="5985840aff2165cd524b040a4953fe4e4700fbeb">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ba0b0083ec574e7c8a626b39c87a029aaaa60ab4\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Małgorzata Graja\.android\build-cache\09c88acdd7b5b02357196fe018835149c102541c\output\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\6ca13bbce7aca2032123661138c2ffb74a0d7f2a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9469a3790fcca3408566bef6645f87a414dcd9e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\5e2297aece9a69d4542fda15b67ea11f6e1955af\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\JavaPP3\FA_No1\mobilki\app\build\intermediates\pre-dexed\debug\classes_4d2319bb1541acc812379ef3d90739dd57cad769.jar" />
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c90e7c382e1f439ce785f708d057f051cb33bbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\df2175f169bf0ec05ddeaa706e025f1d3a265aea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca08a9521bf7458dbaccac43696d0ddaccfe2457\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\90cc82523567610a4409f6e3cbf55c3feef96437\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_937e9401d04f57e68593790b6da83844428b4600\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\4274e8e8714250b9b3cd065e88550e5d7c5fcc78\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09fec4eff68f073e03ea606c0bdecc1453296cdf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\a4a962eb6d1fee94616819744d89957835b44b58\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de24d8023e8da79f30bee46b298f606e5e758432">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e707969eb80c3a7995013f2a15654759e846996a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\89b58fd344cb90be72b8a7110ed459349a47ce05\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8d9077b42f6be80f77092a09ea83d8bdc637375b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Maugosch\.android\build-cache\e9a3b54bf9a4e097aa9345861ddcf36a84158a17\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5c1f80f62ccad560edcd6609fc75f385cf7cb45a">
+        <dex dex="C:\Users\Maugosch\Desktop\mobilki\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b227ebb93db4f32bc7a50ae7a9ace540434bb40\classes.dex" />
     </item>
 
 </items>

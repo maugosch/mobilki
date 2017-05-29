@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ob"
     tools:context="com.example.sony.androidproject.WskaznikiGieldowe">
 
     <android.support.v4.widget.NestedScrollView
@@ -23,6 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Proszę wpisać odpowiednie liczby"
+                android:textColor="?android:attr/textColorTertiaryInverse"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -34,6 +36,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/zyskNaAkcje"
                 android:text="Ilośc akcji zwykłych"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -44,6 +47,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/cenaAkcji"
                 android:text="Zysk przeznaczony na dywidenty"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -54,6 +58,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/zyskNetto"
                 android:text="Przeciętna ilość akcji"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -64,6 +69,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/przecietnaIloscAkcji"
                 android:text="Przychód ze sprzedaży"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -74,6 +80,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textView2"
                 android:text="Zysk netto"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -84,6 +91,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/przychodZeSprzedazyNa1Akcje"
                 android:text="Kapitał własny"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -94,6 +102,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/kapitałWłasny"
                 android:text="Cena akcji"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <Button

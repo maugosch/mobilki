@@ -4,7 +4,22 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+android:background="@drawable/x1511"
 tools:context="com.example.sony.androidproject.MainMainActivity">
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mainWskaznikiFinansowe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="cursive"
+        android:text="FinAnalyzer"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
 
 <TextView
@@ -14,10 +29,10 @@ tools:context="com.example.sony.androidproject.MainMainActivity">
     android:textAlignment="center"
     android:textSize="24sp"
     android:textStyle="bold"
-    android:layout_alignParentTop="true"
+    android:id="@+id/wynik"
+    android:layout_above="@+id/mainWskaznikiFinansowe"
     android:layout_centerHorizontal="true"
-    android:layout_marginTop="32dp"
-    android:id="@+id/wynik" />
+    android:layout_marginBottom="109dp" />
 
 <Button
     android:layout_width="wrap_content"
@@ -46,6 +61,15 @@ tools:context="com.example.sony.androidproject.MainMainActivity">
         android:layout_below="@+id/wynik"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="68dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wynik"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
         android:text="TextView" />
 
 

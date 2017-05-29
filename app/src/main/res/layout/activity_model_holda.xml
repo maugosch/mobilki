@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ob"
     tools:context="com.example.sony.androidproject.ModelHolda">
 
     <android.support.v4.widget.NestedScrollView
@@ -20,6 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Proszę wpisać odpowiednią liczbę"
+                android:textColor="?android:attr/textColorSecondaryInverse"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -31,6 +33,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/sprzedaz"
                 android:text="Koszty własne sprrzedaży"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -41,6 +44,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/stanSredniAktywow"
                 android:text="Sprzedaż"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -51,6 +55,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textView5"
                 android:text="Aktywa obrotowe"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -61,6 +66,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/wynikNetto"
                 android:text="Stan średni aktywów"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -71,6 +77,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/zobowiazaniaKrotkoterminowe"
                 android:text="Zobowiązania"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -81,6 +88,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/zobowiazania"
                 android:text="Aktywa"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -91,6 +99,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/aktywaObrotowe"
                 android:text="Zobowiązania krótkoterminowe"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -101,6 +110,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/aktywaHolda"
                 android:text="Wynik netto"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

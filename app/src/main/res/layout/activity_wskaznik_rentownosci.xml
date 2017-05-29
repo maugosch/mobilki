@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ob"
     tools:context="com.example.sony.androidproject.WskaznikRentownosci">
 
     <android.support.v4.widget.NestedScrollView
@@ -23,6 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Proszę wpisać odpowiednią liczbę"
+                android:textColor="?android:attr/textColorTertiaryInverse"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -34,6 +36,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/wynikFinansowy"
                 android:text="Aktywa ogółem"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -44,6 +47,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/kosztUzyskaniaPrzychodow"
                 android:text="Przychody ze sprzedaży"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -54,6 +58,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textView3"
                 android:text="Zysk bieżący"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -64,6 +69,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/strataZLatUbieglych"
                 android:text="Koszt uzyskania przychodów"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -74,6 +80,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/aktywaOgolem"
                 android:text="Kapitał własny"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -84,6 +91,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/zyskBiezacy"
                 android:text="Strata z lat ubiegłych"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
@@ -94,6 +102,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/wynikFinansowyBrutto"
                 android:text="Wynik finansowy netto"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <Button
