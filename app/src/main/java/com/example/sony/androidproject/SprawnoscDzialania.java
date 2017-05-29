@@ -15,11 +15,7 @@ public class SprawnoscDzialania extends AppCompatActivity {
         setContentView(R.layout.activity_sprawnosc_dzialania);
 
         Firebase.setAndroidContext(this);
-<<<<<<< HEAD
         mFirebase = new Firebase("https://financeapp-7fbe1.firebaseio.com/");
-=======
-        mFirebase = new Firebase("https://finanse-aa551.firebaseio.com/");
->>>>>>> 157afc0dcced57ad5a228ff4f7b1eb5f6fd25cc7
         findViewById(R.id.mainButtonSprawnoscDzialania).setOnClickListener(new View.OnClickListener() {
 
             @Override

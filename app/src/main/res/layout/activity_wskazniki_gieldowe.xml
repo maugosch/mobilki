@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.sony.androidproject.WskaznikiGieldowe">
 
-<<<<<<< HEAD
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -106,95 +105,5 @@
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
-=======
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Proszę wpisać odpowiednie liczby"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/zyskNetto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="23dp"
-        android:text="Zysk netto"
-        android:textSize="14sp" />
-
-    <EditText
-        android:id="@+id/iloscAkcjiZwyklych"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/zyskNaAkcje"
-        android:text="Ilośc akcji zwykłych"
-        android:textSize="14sp" />
-
-    <EditText
-        android:id="@+id/zyskPrzeznaczonyNaDywidenty"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/cenaAkcji"
-        android:text="Zysk przeznaczony na dywidenty"
-        android:textSize="14sp" />
-
-    <EditText
-        android:id="@+id/cenaAkcji"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/kapitałWłasny"
-        android:text="Cena akcji"
-        android:textSize="14sp" />
-
-    <EditText
-        android:id="@+id/zyskNaAkcje"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/zyskPrzeznaczonyNaDywidenty"
-        android:text="Zysk na akcję"
-        android:textSize="14sp" />
-
-    <EditText
-        android:id="@+id/kapitałWłasny"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/przychodZeSprzedazyNa1Akcje"
-        android:text="Kapitał własny"
-        android:textSize="14sp" />
-
-    <EditText
-        android:id="@+id/przychodZeSprzedazyNa1Akcje"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/przecietnaIloscAkcji"
-        android:text="Przychód ze sprzedaży na 1 akcję"
-        android:textSize="14sp" />
-
-    <EditText
-        android:id="@+id/przecietnaIloscAkcji"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/zyskNetto"
-        android:text="Przeciętna ilość akcji"
-        android:textSize="14sp" />
->>>>>>> 157afc0dcced57ad5a228ff4f7b1eb5f6fd25cc7
 
 </RelativeLayout>

@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.sony.androidproject.ModelHolda">
 
-<<<<<<< HEAD
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -105,96 +104,6 @@
                 android:textSize="14sp" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
-=======
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Proszę wpisać odpowiednią liczbę"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:id="@+id/textView5" />
-
-    <EditText
-        android:id="@+id/aktywaObrotowe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Aktywa obrotowe"
-        android:textSize="14sp"
-        android:layout_below="@+id/textView5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="37dp" />
-
-    <EditText
-        android:id="@+id/zobowiazaniaKrotkoterminowe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Zobowiązania krótkoterminowe"
-        android:textSize="14sp"
-        android:layout_below="@+id/aktywaObrotowe"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:id="@+id/zobowiazania"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Zobowiązania"
-        android:textSize="14sp"
-        android:layout_below="@+id/zobowiazaniaKrotkoterminowe"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:id="@+id/aktywaHolda"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Aktywa"
-        android:textSize="14sp"
-        android:layout_below="@+id/zobowiazania"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:id="@+id/wynikNetto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Wynik netto"
-        android:textSize="14sp"
-        android:layout_below="@+id/aktywaHolda"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
-
-    <EditText
-        android:id="@+id/stanSredniAktywow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Stan średni aktywów"
-        android:textSize="14sp"
-        android:layout_below="@+id/wynikNetto"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:id="@+id/sprzedaz"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sprzedaż"
-        android:textSize="14sp"
-        android:layout_below="@+id/stanSredniAktywow"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:id="@+id/kosztyWlasneSprzedazy"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Koszty własne sprrzedaży"
-        android:textSize="14sp"
-        android:layout_below="@+id/sprzedaz"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
->>>>>>> 157afc0dcced57ad5a228ff4f7b1eb5f6fd25cc7
 
 </RelativeLayout>
 
