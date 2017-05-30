@@ -23,4 +23,4 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 ### Screeny z aplikacji
 
-<img src="http://imgur.com/Ppa11IT"/>
+![GitHub Logo](http://imgur.com/Ppa11IT")
