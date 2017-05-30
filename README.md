@@ -23,4 +23,4 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 ### Screeny z aplikacji
 
-![logo]: http://imgur.com/Ppa11IT
+[logo]: http://imgur.com/Ppa11IT
