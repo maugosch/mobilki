@@ -23,6 +23,8 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 ### Screeny z aplikacji
 <div style="text-align: center">
+<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/2.png"/>
+</div>
 ![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/2.png) <br>
 ![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/3.png) <br>
 ![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/4.png) <br>
