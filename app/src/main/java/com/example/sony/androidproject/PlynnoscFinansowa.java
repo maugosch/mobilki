@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
+import com.firebase.client.ValueEventListener;
+import com.google.firebase.database.DatabaseError;
 
 public class PlynnoscFinansowa extends AppCompatActivity {
 
@@ -23,7 +26,23 @@ public class PlynnoscFinansowa extends AppCompatActivity {
 
         Firebase.setAndroidContext(this);
         mFirebase = new Firebase("https://financeapp-7fbe1.firebaseio.com/");
+/***********************************************************************************
+        //Pobieranie danych z Firebase do formularza
+        Firebase userRef = mFirebase.child("users/" + mEmail);
+        userRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                // ...
+                Post newPost = dataSnapshot.getValue(Post.class);
+                System.out.println("Author: " + newPost.author);
+            }
 
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                // ...
+            }
+        });
+*********************************************************************************/
     }
 
     public void calculatePlynnosc(View view) {
@@ -42,8 +61,19 @@ public class PlynnoscFinansowa extends AppCompatActivity {
         ResultModel user = new ResultModel(zapasy, zobBiez, ao, rmk, srPien);
         userRef.setValue(user);
 
+        double biezaca = (double)ao/(double)zobBiez;
+        String biezacaS = String.valueOf(biezaca);
+        double szybka = (double)(ao-zapasy-rmk)/(double)zobBiez;
+        String szybkaS = String.valueOf(szybka);
+        double zaostrzona = (double)srPien/(double)zobBiez;
+        String zaostrzonaS = String.valueOf(zaostrzona);
+
         Intent int1 = new Intent(PlynnoscFinansowa.this, PlynnoscFinansowa2.class);
         int1.putExtra("the email", mEmail);
+        int1.putExtra("biezaca", biezacaS);
+        int1.putExtra("szybka", szybkaS);
+        int1.putExtra("zaostrzona", zaostrzonaS);
+
         startActivity(int1);
     }
 }
