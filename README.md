@@ -22,6 +22,10 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 ### Wykorzystane klasy
 
 ### Screeny z aplikacji
-
-![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/2.png) <Br>
-![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/3.png)
+<div style="text-align: center">
+![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/2.png) <br>
+![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/3.png) <br>
+![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/4.png) <br>
+![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/5.png) <br>
+![alt text](https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/9.png) <br>
+</div>
