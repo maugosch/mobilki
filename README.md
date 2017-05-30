@@ -1,4 +1,4 @@
-# FinAnalysis - analizator finansowy
+# FinAnalyzer - analizator finansowy
 
 ## Twórcy projektu
 Małgorzata Graja 166711 KrDZIs3012Io <br>
@@ -22,3 +22,5 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 ### Wykorzystane klasy
 
 ### Screeny z aplikacji
+
+<img src="http://imgur.com/Ppa11IT"/>
