@@ -23,4 +23,4 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 ### Screeny z aplikacji
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](http://imgur.com/Ppa11IT "Logo Title Text 1")
