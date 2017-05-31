@@ -14,7 +14,7 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 - wskaźnik giełdowy <br>
 - sprawność działania <br>
 - wskaźnik rentowności <br>
-- modele upadłości: Holda i Altmana <br>
+- modele upadłości: Hołda i Altmana <br>
 3. Wprowadzenie danych na serwer
 3. Analiza sytuacji finansowej spółki na podstawie wprowadzonych danych
 
@@ -23,7 +23,7 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 
 ### Użytkowanie aplikacji
-Użytkownik tworzy konto poprzez podanie adresu e-mail oraz hasła, po czym zostaje przeniesiony do głównego menu. Tam do wyboru ma za pomocą przycisków wskaźniki finansowe bądź modele upadłości. Po naciśnięciu przycisku "Wskaźniki finansowe", ma do wyboru następujące wskaźniki: płynność finansowa, wskaźnik wypłacalności, wskaźnik giełdowy, sprawność działania, wskaźnik rentowności. Wybierając dany wskaźnik, użytkownik ma możliwość wpisania odpowiednich wartości liczbowych potrzebnych do wykonania analizy, a następnie zostaje mu zaprezentowany wynik operacji. Natomiast po naciśnięciu przycisku "Modele upadłości", na ekranie pojawiają się do wyboru dwa modele: Altmana oraz Hołdy. Wybierając jeden z nich, użytkownik wpisuje odpowiednie wartości liczbowe potrzebne do wykonania obliczeń. Na koniec zostaje mu przedstawiony wynik analizy wraz z opisem modelu i legendą. 
+Użytkownik tworzy konto poprzez podanie adresu e-mail oraz hasła, po czym zostaje przeniesiony do głównego menu. Tam do wyboru ma za pomocą przycisków wskaźniki finansowe bądź modele upadłości. Po naciśnięciu przycisku "Wskaźniki finansowe", ma do wyboru następujące wskaźniki: płynność finansowa, wskaźnik wypłacalności, wskaźnik giełdowy, sprawność działania, wskaźnik rentowności. Wybierając dany wskaźnik, użytkownik ma możliwość wpisania odpowiednich wartości liczbowych potrzebnych do wykonania analizy, a następnie zostaje mu zaprezentowany wynik operacji. Natomiast po naciśnięciu przycisku "Modele upadłości", na ekranie pojawiają się do wyboru dwa modele: Altmana oraz Hołda. Wybierając jeden z nich, użytkownik wpisuje odpowiednie wartości liczbowe potrzebne do wykonania obliczeń. Na koniec zostaje mu przedstawiony wynik analizy wraz z opisem modelu i legendą. 
 
 ### Wybrane screeny z aplikacji
 <p align="center">
