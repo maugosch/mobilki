@@ -8,7 +8,7 @@ android:background="@drawable/x1511"
 tools:context="com.example.sony.androidproject.MainMainActivity">
 
     <TextView
-        android:id="@+id/wynik"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/mainWskaznikiFinansowe"
@@ -22,19 +22,34 @@ tools:context="com.example.sony.androidproject.MainMainActivity">
         android:textStyle="bold" />
 
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Analizator Finansowy"
-    android:textAlignment="center"
-    android:textSize="24sp"
-    android:textStyle="bold"
-    android:id="@+id/wynik"
-    android:layout_above="@+id/mainWskaznikiFinansowe"
-    android:layout_centerHorizontal="true"
-    android:layout_marginBottom="109dp" />
+    <TextView
+        android:id="@+id/witaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_marginTop="37dp"
+        android:text="witaj"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9" />
 
-<Button
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mainWskaznikiFinansowe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:text="Analizator Finansowy"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Wskaźniki finansowe"
@@ -54,23 +69,7 @@ tools:context="com.example.sony.androidproject.MainMainActivity">
     android:layout_alignParentBottom="true"
     android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:id="@+id/wynik"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/wynik"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="68dp"
-        android:text="TextView" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/wynik"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="66dp"
-        android:text="TextView" />
 
 
 </RelativeLayout>

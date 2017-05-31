@@ -26,11 +26,6 @@ public class MainMainActivity extends AppCompatActivity {
         startActivity(but1);
     }
 
-    public void sprawnoscDzialania(View view) {
-        Intent but2 = new Intent(MainMainActivity.this, SprawnoscDzialania.class);
-        but2.putExtra("the email", mEmail);
-        startActivity(but2);
-    }
 
     public void wskaznikGieldowy(View view) {
         Intent but3 = new Intent(MainMainActivity.this, WskaznikiGieldowe.class);

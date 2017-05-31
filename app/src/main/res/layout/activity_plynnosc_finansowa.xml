@@ -25,7 +25,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="13dp"
                 android:text="Proszę wpisać odpowiednie liczby"
-                android:textAlignment="textStart"
+
                 android:textColor="?android:attr/textColorSecondaryInverse"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -65,17 +65,18 @@
                 android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/krotkoterminoweRozliczenieMiedzyokresowe"
+                android:id="@+id/krotRozMiedzokres"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/zobowiazaniaBiezace"
                 android:hint="Krótkoterminowe rozliczenie międzyokresowe"
+                android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
             <EditText
-                android:id="@+id/srodkiPieniezneIInneAktywaPieniezne"
+                android:id="@+id/srodkiPieniezne"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -86,7 +87,7 @@
                 android:textSize="14sp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/srodkiPieniezneIInneAktywaPieniezne"

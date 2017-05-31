@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,14 +16,15 @@
         tools:layout_editor_absoluteY="11dp">
 
         <TextView
-            android:id="@+id/biezaca"
+            android:id="@+id/wskaznikOgolnegoZadluzenia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/textView81"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Wskaźnik ogólnego zadłużenia stanowi relację zobowiązań ogółem do całkowitych aktywów przedsiębiorstwa. Wyraża on udział kapitałów obcych w finansowaniu aktywów firmy. Jest bardzo istotny z punktu widzenia pożyczkodawców, którzy w razie upadłości przedsiębiorstwa odzyskują swoje należności z majątku firmy."
@@ -34,160 +35,167 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/wskaznikZadluzeniaKapitaluWlasnego"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wskaźnik zadłużenia kapitału własnego jest wskaźnikiem uzupełniającym ocenę zadłużenia przedsiębiorstwa."
+            android:textColor="@android:color/background_light"
+            tools:text="wskaźnik ogólnego zadłużenia - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/wskaznikZobowiazanDlugoterminowych"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Im wartość tego wskaźnika jest bliższa 1, tym większą część zobowiązań ogółem stanowią zobowiązania długoterminowe. Jest to generalnie pożądana sytuacja. Zbyt duży udział zobowiązań krótkoterminowych w długu firmy może prowadzić do kłopotów z płynnością finansową i generować dodatkowe koszty karnych odsetek."
+            android:textColor="@android:color/background_light"
+            tools:text="wskaźnik ogólnego zadłużenia - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/wskaznikZadluzeniaDlugoterminowego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pożądana wartość tego wskaźnika powinna wynosić, zależnie od autora opisującego ten wskaźnik, nie więcej niż 0,52 lub między 0,5 a 1,03. Mierzy on ryzyko wypłacalności związane z długoterminowym zadłużeniem firmy."
+            android:textColor="@android:color/background_light"
+            tools:text="wskaźnik ogólnego zadłużenia - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/wskaznikPokryciaDlugu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Określa on stopień zabezpieczenia obsługi zobowiązań długoterminowych. Uważa się, że wartość tego wskaźnika powinna być wyższa od 1 i rosnąć z upływem czasu, co świadczy o dobrym wykorzystaniu zaciągniętych pożyczek, wywołującym rozwój przedsiębiorstwa i wzrost wpływów z tytułu poczynionych inwestycji."
+            android:textColor="@android:color/background_light"
+            tools:text="wskaźnik ogólnego zadłużenia - opis" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Wskaźnik zadłużenia kapitału własnego jest wskaźnikiem uzupełniającym ocenę zadłużenia przedsiębiorstwa. Określa on wielkość kapitałów obcych przypadającą na jednostkę kapitału własnego. Poziom zadłużenia ma istotne znaczenie nie tylko z punktu widzenia wypłacalności przedsiębiorstwa, ale także ze względu na efekt jaki struktura finansowa wywiera na wynik finansowy. Z jednej strony bowiem, im wyższy w podmiocie kapitał obcy, tym większe generuje koszty finansowe, obniżając wynik finansowy oraz zwiększając prawdopodobieństwo kłopotów z wypłacalnością. Z drugiej jednak strony, przedsiębiorstwo wykorzystując dźwignię finansową może rozwijać się znacznie szybciej niż przy wykorzystaniu jedynie kapitałów własnych, generując dodatkowe zyski znacznie przewyższające koszty obsługi długu."
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźnik zadłużenia kapitału własnego - opis" />
-
-        <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/wskaznikPokryciaOdsetekZykiem"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/textView86"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Wskaźnik udziału zobowiązań długoterminowych w zobowiązaniach ogółem umożliwia ocenę struktury kapitałów obcych. Im wartość tego wskaźnika jest bliższa 1, tym większą część zobowiązań ogółem stanowią zobowiązania długoterminowe. Jest to generalnie pożądana sytuacja. Zbyt duży udział zobowiązań krótkoterminowych w długu firmy może prowadzić do kłopotów z płynnością finansową i generować dodatkowe koszty karnych odsetek."
+            android:text="Informuje on o tym, ile razy zysk brutto powiększony o uzyskiwane odsetki przewyższa odsetki płacone przez przedsiębiorstwo. Im wyższy wskaźnik, tym bezpieczniejsza jest sytuacja finansowa przedsiębiorstwa i tym mniej ewentualne wahania zysku mogą wpłynąć na jego wypłacalność. Jeśli wartość tego wskaźnika spadnie poniżej 1 oznacza to, że przedsiębiorstwo nie jest w stanie spłacić nawet odsetek od zaciągniętych kredytów, nie mówiąc już o racie kapitałowej i jego wypłacalność jest poważnie zagrożona."
             android:textColor="@android:color/background_light"
-            tools:text="wskaźnik udziału zobowiązań długoterminowych w zobowiązaniach ogółem - opis" />
+            tools:text="wskaźnik ogólnego zadłużenia - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/wskaznikPokryciaDluguZNadwyzka"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
-            android:id="@+id/textView18"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Jest to jeden z ważniejszych wskaźników wypłacalności. Pożądana wartość tego wskaźnika powinna wynosić, zależnie od autora opisującego ten wskaźnik, nie więcej niż 0,52 lub między 0,5 a 1,03. Mierzy on ryzyko wypłacalności związane z długoterminowym zadłużeniem firmy."
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźnik zadłużenia długoterminowego - opis" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:text="B/D" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Jest to jeden z ważniejszych wskaźników wypłacalności. Pożądana wartość tego wskaźnika powinna wynosić, zależnie od autora opisującego ten wskaźnik, nie więcej niż 0,52 lub między 0,5 a 1,03. Mierzy on ryzyko wypłacalności związane z długoterminowym zadłużeniem firmy."
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźniki uzupełniajace" />
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:text="B/D" />
-
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="W ocenie zadłużenia firmy, obok przedstawionych powyżej wskaźników, wykorzystuje się również wskaźniki opisujące zdolność przedsiębiorstwa do obsługi długu, czyli terminowego regulowania wszystkich zobowiązań. Rozróżnia się dwie metody oceny tej zdolności: statyczną - opartą o rachunek zysków i strat, oraz dynamiczną - wykorzystującą rachunek przepływów pieniężnych. Wskaźniki oparte o zysk wykazują się znacznie większą stabilnością, niż wskaźniki konstruowane przy użyciu przepływów środków pieniężnych. Nadwyżka finansowa jest jednak wielkością memoriałową, przepływy finansowe pokazują natomiast jakość zysku. Najlepiej jest więc wykorzystać oba zestawy wskaźników, biorąc pod uwagę charakter działalności przedsiębiorstwa oraz specyfikę branży."
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźniki uzupełniajace" />
-
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:text="B/D" />
-
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźniki statyczne" />
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Wskaźnik pokrycia obsługi długu pokazuje w jakim stopniu wypracowany zysk pokrywa obsługę zobowiązań długoterminowych. Określa on stopień zabezpieczenia obsługi zobowiązań długoterminowych. Uważa się, że wartość tego wskaźnika powinna być wyższa od 1 i rosnąć z upływem czasu, co świadczy o dobrym wykorzystaniu zaciągniętych pożyczek, wywołującym rozwój przedsiębiorstwa i wzrost wpływów z tytułu poczynionych inwestycji."
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźnik pokrycia obsługi długu" />
-
-        <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/textView87"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Jego wzorcowa wartość przyjmowana jest na poziomie 1,5, a spadek poniżej uznawany jest za niepożądany i wywołujący wzrost ryzyka dla kredytodawcy."
             android:textColor="@android:color/background_light"
-            tools:text="wskaźnik pokrycia obsługi długu nadwyżka finansową" />
+            tools:text="wskaźnik ogólnego zadłużenia - opis" />
 
-        <TextView
-            android:id="@+id/textView28"
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Pokazuje on jaką część zobowiązań ogółem przedsiębiorstwo jest w stanie spłacić przy pomocy wygospodarowanej nadwyżki finansowej. Pozytywną tendencją jest wzrost tego wskaźnika, oznaczający skrócenie czasu potrzebnego jednostce na spłatę zadłużenia. "
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźnik pokrycia zobowiązań nadwyżką finansową" />
+            android:layout_height="wrap_content" />
+
 
         <TextView
-            android:id="@+id/textView29"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Określa możliwości przedsiębiorstwa w zakresie spłaty obciążeń kredytowych z wypracowanej nadwyżki finansowej. Informuje on o tym, ile razy zysk brutto powiększony o uzyskiwane odsetki przewyższa odsetki płacone przez przedsiębiorstwo. Im wyższy wskaźnik, tym bezpieczniejsza jest sytuacja finansowa przedsiębiorstwa i tym mniej ewentualne wahania zysku mogą wpłynąć na jego wypłacalność. Jeśli wartość tego wskaźnika spadnie poniżej 1 oznacza to, że przedsiębiorstwo nie jest w stanie spłacić nawet odsetek od zaciągniętych kredytów, nie mówiąc już o racie kapitałowej i jego wypłacalność jest poważnie zagrożona."
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźnik pokrycia odsetek zyskiem" />
-
-        <TextView
-            android:id="@+id/textView30"
+            android:id="@+id/wskaznikPokryciaZobowiazanNadwyzka"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
-        <TextView
-            android:id="@+id/textView33"
+
+        <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Pierwszy ze wskaźników informuje w jakim stopniu jednostka jest w stanie pokryć zobowiązania bieżące z tytułu kredytów długoterminowych przy wykorzystaniu gotówki operacyjnej, drugi - ile razy gotówka jest wyższa od odsetek spłacanych przez firmę."
-            android:textColor="@android:color/background_light"
-            tools:text="wskaźniki dynamiczne" />
+            android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView31"
+            android:id="@+id/wskaznikPokryciaDluguGotowki"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="TextView"
             android:textColor="@android:color/background_light"
-            tools:text="wskaźniki pokrycia obsługi długu z gotówki operacyjnej" />
+            tools:text="B/D" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView34"
+            android:id="@+id/wskaznikPokryciaOdsetekGotowkaOperacyjna"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="TextView"
             android:textColor="@android:color/background_light"
-            tools:text="wskaźniki pokrycia odsetek z gotówki operacyjnej" />
+            tools:text="B/D" />
+
 
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

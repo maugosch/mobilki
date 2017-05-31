@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -20,10 +20,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/witaj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Wskaźnik płynności bieżącej Informuje o zdolności firmy do regulowania wymagalnych zobowiązań poprzez upłynnienie środków obrotowych. Za-lecany poziom optymalny tego wskaźnika wynosi 1.5-2.0. Wynik niższy oznacza zbyt niską płynność, co może wpływać na problemy w regulowaniu zobowiązań krótkotermi-nowych. Zbyt wysoki wskaźnik wskazuje na zamrożenie ka-pitałów własnych, przez co nie możliwe jest zwiększenie zyskowności firmy poprzez efektywne wykorzystanie kapi-tałów obcych. "
@@ -39,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
@@ -49,6 +51,9 @@
             android:textColor="@android:color/background_light"
             tools:text="wskaźnik szybkiej płynności - opis" />
 
+
+
+
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -58,6 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
@@ -70,4 +76,4 @@
 
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

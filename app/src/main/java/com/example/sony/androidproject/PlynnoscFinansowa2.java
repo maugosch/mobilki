@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class PlynnoscFinansowa2 extends AppCompatActivity {
 
@@ -21,6 +22,7 @@ public class PlynnoscFinansowa2 extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plynnosc_finansowa2);
+
 
         biezaca = (TextView)findViewById(R.id.biezaca);
         biezaca.setText(wynikB);

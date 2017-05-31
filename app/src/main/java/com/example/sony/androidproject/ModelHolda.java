@@ -44,7 +44,7 @@ public class ModelHolda extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.przychodyZeSprzedazy);
         int przychZeSprz = Integer.parseInt(editText.getText().toString());
 
-        Firebase userRef = mFirebase.child("users/" + mEmail);
+        Firebase userRef = mFirebase.child("users/" + mEmail + "/ModelH");
         ResultModelForModels user = new ResultModelForModels(ao, zobKr, zobOg, a, wf, stanSrA, kosztSprz, przychZeSprz);
         userRef.setValue(user);
 

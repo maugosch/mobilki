@@ -35,7 +35,7 @@
                 android:layout_above="@+id/podategoDochodowy"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Odsetki"
+                android:hint="Odsetki"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -46,7 +46,7 @@
                 android:layout_above="@+id/zobowiazaniaOgolem"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Kapitał własny"
+                android:hint="Kapitał własny"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -57,7 +57,7 @@
                 android:layout_above="@+id/zobowiazania"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Kapitał obcy"
+                android:hint="Kapitał własny"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp"
                 android:textStyle="italic" />
@@ -69,7 +69,7 @@
                 android:layout_above="@+id/przychodyZeSprzedazy"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Zobowiązania długoterminowe"
+                android:hint="Zobowiązania długoterminowe"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -80,7 +80,7 @@
                 android:layout_above="@+id/odsetki"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Zobowiązania ogółem"
+                android:hint="Zobowiązania ogółem"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -91,7 +91,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Aktywa ogółem"
+                android:hint="Aktywa ogółem"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -102,7 +102,7 @@
                 android:layout_above="@+id/majatekOgolem"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Przecietny Stan Zapasów"
+                android:hint="Przecietny Stan Zapasów"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -113,7 +113,7 @@
                 android:layout_above="@+id/aktywaOgolem"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:text="Zysk netto"
+                android:hint="Zysk netto"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -124,7 +124,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="Przychody ze sprzedazy"
+                android:hint="Przychody ze sprzedazy"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -135,7 +135,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="Zysk brutto"
+                android:hint="Zysk brutto"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -146,7 +146,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="Rata kapitaowa"
+                android:hint="Rata kapitaowa"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -157,7 +157,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="Amortyzacja"
+                android:hint="Amortyzacja"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -168,7 +168,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="Przecietny stan zobowiazan ogolem"
+                android:hint="Przecietny stan zobowiazan ogolem"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -179,8 +179,18 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:text="Dodatnie przeplywy netto z dzialalnosci operacyjnej"
+                android:hint="Dodatnie przeplywy netto z dzialalnosci operacyjnej"
                 android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/srodkiPieniezneIInneAktywaPieniezne"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:onClick="calculatePlynnosc"
+                android:text="Oblicz wskaźniki" />
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

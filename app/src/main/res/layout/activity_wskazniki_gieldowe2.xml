@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,14 +16,15 @@
         android:weightSum="1">
 
         <TextView
-            android:id="@+id/biezaca"
+            android:id="@+id/zyskNaAkcje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/witaj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Wskaźnik ten niesie bardzo ważną informację dla akcjonariuszy. Informuje on ile zysku wypracował kapitał zainwestowany przez nich w przedsiębiorstwo. Jest to jeden z bardziej popularnych wskaźników analizy fundamentalnej."
@@ -35,10 +36,11 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/wskaznikDiwydentyNaAkcje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
@@ -54,10 +56,11 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/cenaAkcjiDoZyskuNaAkcje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
@@ -68,11 +71,16 @@
             android:textColor="@android:color/background_light"
             tools:text="wskaźnik cena akcji do zysku na akcję (price earnings  ratio - PE) - opis" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/wartoscKsiegowaNaAkcje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
@@ -83,11 +91,17 @@
             android:textColor="@android:color/background_light"
             tools:text="wartość księgowa na akcję (book value per share - bvs) - opis" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/wskaznikProduktywnosciJednejAkcji"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
@@ -100,4 +114,4 @@
 
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

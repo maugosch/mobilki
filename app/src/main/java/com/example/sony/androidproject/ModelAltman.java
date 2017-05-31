@@ -42,7 +42,7 @@ public class ModelAltman extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.zobowiazaniaOgolem);
         int zobOg = Integer.parseInt(editText.getText().toString());
 
-        Firebase userRef = mFirebase.child("users/" + mEmail);
+        Firebase userRef = mFirebase.child("users/" + mEmail + "/ModelA");
         ResultModelForModels user = new ResultModelForModels(kon, ao, zz, ebit, przychZeSprz, kw, zobOg);
         userRef.setValue(user);
 

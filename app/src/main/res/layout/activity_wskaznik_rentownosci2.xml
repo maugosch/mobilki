@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -16,58 +16,164 @@
         tools:layout_editor_absoluteY="7dp">
 
         <TextView
-            android:id="@+id/biezaca"
+            android:id="@+id/wskaznikPokryciaStrat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/witaj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Wskaźnik płynności bieżącej Informuje o zdolności firmy do regulowania wymagalnych zobowiązań poprzez upłynnienie środków obrotowych. Za-lecany poziom optymalny tego wskaźnika wynosi 1.5-2.0. Wynik niższy oznacza zbyt niską płynność, co może wpływać na problemy w regulowaniu zobowiązań krótkotermi-nowych. Zbyt wysoki wskaźnik wskazuje na zamrożenie ka-pitałów własnych, przez co nie możliwe jest zwiększenie zyskowności firmy poprzez efektywne wykorzystanie kapi-tałów obcych. "
+            android:text="Na podstawie wskaźnika możemy ocenić w jakim stopniu spółka jest w stanie pokryć straty z lat ubiegłych. Jeżeli wskaźnik przyjmuje wartość 0 %, tzn., że spółka nie generuje zysku bieżącego i nie jest w stanie pokryć strat z lat ubiegłych. W takim wypadku należy wyliczyć wskaźnik pokrycia skumulowanych strat."
             android:textColor="@android:color/background_light"
-            tools:text="wskaźnik płynności bieżącej - opis" />
+            tools:text="wskaznikPokryciaStrat - opis" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/wskaznikSkumulowanychStrat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/textView100"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Wskaźnik szybkiej płynności Określa zdolność do szybkiego uregulowania zobowiązań przy wykorzystaniu płynnych środków obrotowych. Poziom tego wskaźnika powinien kształtować się powyżej 1.0. Wy-nik poniżej może oznaczać problemy z regulowaniem zo-bowiązań krótkoterminowych. "
+            android:text=" Jeżeli wskaźnik nie osiąga wartości powyżej 100%, to sytuacja finansowa spółki jest bardzo trudna. Nie jest ono w stanie pokryć strat kapitałem własnym."
             android:textColor="@android:color/background_light"
-            tools:text="wskaźnik szybkiej płynności - opis" />
+            tools:text="wskaznikSkumulowanychStrat - opis" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/wskaznikOperacyjnosci"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
+            android:textColor="@android:color/background_light"
             tools:text="B/D" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Wskaźnik płynności zaostrzony (wypłacalności gotówkowej) Określa zdolność do natychmiastowego uregulowania wy-magalnych zobowiązań wykorzystując wyłącznie środki pieniężne. Optymalny poziom tego wskaźnika wynosi po-wyżej 0.3. Wynik niższy oznacza możliwe problemy z regu-lowaniem zobowiązań finansowych.  "
+            android:text="Na podstawie wskaźnika oceniamy poziom kosztów w spółce. Im wyższy wskaźnik tym wyższe koszty ponosi przedsiębiorstwo w stosunku do osiągniętych przychodów ze sprzedaży."
             android:textColor="@android:color/background_light"
-            tools:text="wskaźnik płynności zaostrzonej - opis" />
+            tools:text="wskaznikOperacyjnosci - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/produktywnoscAktywow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wskaźnik produktywności aktywów służy do oceny efektywności gospodarowania całkowitym majątkiem spółki. Im większa wartość tego wskaźnika tym lepiej to świadczy o zarządzaniu przedsiębiorstwem."
+            android:textColor="@android:color/background_light"
+            tools:text="produktywnoscAktywow - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/mnoznikKapitaluWlasnego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ukazuje stopień zaangażowania kapitałów własnych w majątku przedsiębiorstwa. Wartość tego mnożnika zawierać się może w przedziale od 1 do nieskończoności."
+            android:textColor="@android:color/background_light"
+            tools:text="mnoznikKapitaluWlasnego - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/rentownoscKapitalowWlasnych"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Na podstawie wskaźnika możemy ocenić jaki jest zwrot z funduszy zainwestowanych przez jego właścicieli. Jego wartość powinna być co najmniej równa stopie inflacji."
+            android:textColor="@android:color/background_light"
+            tools:text="rentownoscKapitalowWlasnych - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/rentownoscMajatku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Na podstawie wskaźnika możemy ocenić jaka wielkość zysku przypada na każdą jednostkę pieniężną zaangażowaną w aktywa spółki (rentowność aktywów spółki). Na jego podstawie oceniane są kompetencje kierownictwa w zarządzaniu."
+            android:textColor="@android:color/background_light"
+            tools:text="rentownoscMajatku - opis" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/rentownoscSprzedazy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            tools:text="B/D" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Na podstawie wskaźnika możemy ocenić jaka jest rentowność sprzedaży w spółce. Wskaźnik w znacznym stopniu zależy on od długości cyklu produkcyjnego, powinniśmy porównywać go do przeciętnego wskaźnika w sektorze."
+            android:textColor="@android:color/background_light"
+            tools:text="rentownoscSprzedazy - opis" />
+
+
 
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

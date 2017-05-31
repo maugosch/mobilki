@@ -1,50 +1,48 @@
 package com.example.sony.androidproject;
 
 import com.firebase.client.Firebase;
+import com.google.firebase.database.IgnoreExtraProperties;
 
 /**
  * Created by Sony on 2017-05-28.
  */
-
+@IgnoreExtraProperties
 public class ResultModel {
 
-    private int count = 2;
-    private String mail = "koko";
-
-    private int zapasy;
-    private int zobBiez;
-    private int ao;
-    private int rmk;
-    private int srPien;
-    private int zyskBiez;
-    private int strata;
-    private int kw;
-    private int kup;
-    private int przychZeSprz;
-    private int a;
-    private int wf;
-    private int ilAkcji;
-    private int dywidendy;
-    private int cenaAkcji;
-    private int zobOg;
-    private int ko;
-    private int przecStanZapasow;
-    private int zobDl;
-    private int wfBrutto;
-    private int odsetki;
-    private int rataKap;
-    private int amortyzacja;
-    private int przecStanZob;
-    private int cfOP;
+    public int zapasy;
+    public int zobBiez;
+    public int ao;
+    public int rmk;
+    public int srPien;
+    public int zyskBiez;
+    public int strata;
+    public int kw;
+    public int kup;
+    public int przychZeSprz;
+    public int a;
+    public int wf;
+    public int ilAkcji;
+    public int dywidendy;
+    public int cenaAkcji;
+    public int zobOg;
+    public int ko;
+    public int przecStanZapasow;
+    public int zobDl;
+    public int wfBrutto;
+    public int odsetki;
+    public int rataKap;
+    public int amortyzacja;
+    public int przecStanZob;
+    public int cfOP;
 
 
     public ResultModel() {
     }
-
+/*
     public ResultModel(String mail, int count) {
         this.mail = mail;
         this.count = count;
-    }
+    }*/
 
     //plynnosc finansowa 5 danych
     public ResultModel(int zapasy, int zobBiez, int ao, int rmk, int srPien) {
@@ -96,16 +94,60 @@ public class ResultModel {
         this.cfOP = cfOP;
     }
 
-
-
-
-    public long getCount() {
-        return count;
+    public ResultModel(int zapasy,
+                       int zobBiez,
+                       int ao,
+                       int rmk,
+                       int srPien,
+                       int zyskBiez,
+                       int strata,
+                       int kw,
+                       int kup,
+                       int przychZeSprz,
+                       int a,
+                       int wf,
+                       int ilAkcji,
+                       int dywidendy,
+                       int cenaAkcji,
+                       int zobOg,
+                       int ko,
+                       int przecStanZapasow,
+                       int zobDl,
+                       int wfBrutto,
+                       int odsetki,
+                       int rataKap,
+                       int amortyzacja,
+                       int przecStanZob,
+                       int cfOP) {
+        this.zapasy = zapasy;
+        this.zobBiez =zobBiez;
+        this.ao =ao;
+        this.rmk =rmk;
+        this.srPien =srPien;
+        this.zyskBiez =zyskBiez;
+        this.strata =strata;
+        this.kw =kw;
+        this.kup =kup;
+        this.przychZeSprz =przychZeSprz;
+        this.a =a;
+        this.wf =wf;
+        this.ilAkcji =ilAkcji;
+        this.dywidendy =dywidendy;
+        this.cenaAkcji =cenaAkcji;
+        this.zobOg =zobOg;
+        this.ko =ko;
+        this.przecStanZapasow =przecStanZapasow;
+        this.zobDl =zobDl;
+        this.wfBrutto =wfBrutto;
+        this.odsetki =odsetki;
+        this.rataKap =rataKap;
+        this.amortyzacja =amortyzacja;
+        this.przecStanZob =przecStanZob;
+        this.cfOP =cfOP;
     }
 
-    public String getMail() {
-        return mail;
-    }
+
+
 
     public long getZapasy() {
         return zapasy;
@@ -155,7 +197,7 @@ public class ResultModel {
         return wf;
     }
 
-    public long getIlAKcji() {
+    public long getIlAkcji() {
         return ilAkcji;
     }
 

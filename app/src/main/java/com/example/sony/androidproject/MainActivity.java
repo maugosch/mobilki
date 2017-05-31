@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.firebase.client.Firebase;
-
 import static com.example.sony.androidproject.LoginActivity.M_EMAIL;
 
 public class MainActivity extends AppCompatActivity {
@@ -27,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Capture the layout's TextView and set the string as its text
-        TextView textView = (TextView) findViewById(R.id.wynik);
-        textView.setText("WITAJ " + mEmailTemp);
+        TextView textView = (TextView) findViewById(R.id.witaj);
+        textView.setText("Witaj " + mEmailTemp);
     }
 
     public void wskaznikiFinansowe (View view){

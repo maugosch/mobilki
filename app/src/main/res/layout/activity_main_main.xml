@@ -8,69 +8,65 @@
     tools:context="com.example.sony.androidproject.MainActivity">
 
 
-    <TextView
-        android:id="@+id/mainFinancialRatio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:text="Wskaźniki finansowe: "
-        android:textColor="?android:attr/textColorSecondaryInverse"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Płynność finansowa"
-        android:id="@+id/mainPlynnosc"
-        android:onClick="plynnoscFinansowa"
-        android:layout_marginTop="14dp"
-        android:layout_below="@+id/mainFinancialRatio"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sprawność działania"
-        android:id="@+id/mainSprawnosc"
-        android:onClick="sprawnoscDzialania"
-        android:layout_below="@+id/mainWskaznik"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/mainFinancialRatio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Wskaźniki finansowe: "
+            android:textColor="?android:attr/textColorSecondaryInverse"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Wskaźnik giełdowy"
-        android:id="@+id/mainWskaznik"
-        android:onClick="wskaznikGieldowy"
-        android:layout_below="@+id/mainWyplacalnosc"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <Button
+            android:id="@+id/mainPlynnosc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mainFinancialRatio"
+            android:layout_marginTop="14dp"
+            android:onClick="plynnoscFinansowa"
+            android:text="Płynność finansowa" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Wskaźnik wypłacalności"
-        android:id="@+id/mainWyplacalnosc"
-        android:onClick="wskaznikWyplacalnosci"
-        android:layout_below="@+id/mainPlynnosc"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <Button
+            android:id="@+id/mainRentownosci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mainSprawnosc"
+            android:onClick="wskaznikRentownosci"
+            android:text="Wskaźnik rentowności" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Wskaźnik rentowności"
-        android:id="@+id/mainRentownosci"
-        android:onClick="wskaznikRentownosci"
-        android:layout_below="@+id/mainSprawnosc"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        <Button
+            android:id="@+id/mainWyplacalnosc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mainPlynnosc"
+            android:onClick="wskaznikWyplacalnosci"
+            android:text="Wskaźnik wypłacalności" />
 
+        <Button
+            android:id="@+id/mainWskaznik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mainWyplacalnosc"
+            android:onClick="wskaznikGieldowy"
+            android:text="Wskaźnik giełdowy" />
+
+    </LinearLayout>
 
 
 </RelativeLayout>

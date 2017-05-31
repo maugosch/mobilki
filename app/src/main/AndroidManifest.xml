@@ -40,7 +40,8 @@
             android:label="@string/title_activity_wskaznik_rentownosci2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".WskaznikiGieldowe2" />
-        <activity android:name=".WskaznikWyplacalnosci2"></activity>
+        <activity android:name=".WskaznikWyplacalnosci2" />
+        <activity android:name=".SprawnoscDzialania2"></activity>
     </application>
 
 </manifest>

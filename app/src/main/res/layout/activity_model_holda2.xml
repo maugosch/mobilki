@@ -4,6 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/x7135"
     tools:context="com.example.sony.androidproject.ModelHolda2">
 
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="316dp"
+        android:layout_height="192dp"
+        android:text="Model był zbudowany w oparciu o 40 przedsiębiorstw, które zbankrutowały i 40 przedsiębiorstw kontynuujących działalność. Badanie dotyczyło 3 lat (1993-1996). W pierwszym etapie analizy wybrano 28 wskaźników finansowych. Ostateczna postać modelu została oparta o 5 wskaźników."
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="135dp"
+        android:layout_height="55dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorSecondaryInverse"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="228dp"
+        tools:text="Z" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="107dp"
+        android:layout_height="17dp"
+        android:text="Z - szanse upadku"
+        android:textColor="?android:attr/textColorHintInverse"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="242dp"
+        android:layout_height="26dp"
+        android:text="Z&gt;0 - brak zagrożenia upadłością"
+        android:textColor="?android:attr/textColorHintInverse"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="33dp" />
 </android.support.constraint.ConstraintLayout>

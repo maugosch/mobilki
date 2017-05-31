@@ -30,6 +30,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.firebase.client.Firebase;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,6 +41,7 @@ import static android.Manifest.permission.READ_CONTACTS;
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
+    public static ResultModel user;
     public static final String M_EMAIL = "com.example.sony.androidproject.M_EMAIL";
 
     /**
@@ -64,6 +66,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+
+    Firebase mFirebase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -305,6 +309,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         UserLoginTask(String email, String password) {
             mEmail = email;
             mPassword = password;
+            createDataTree(mEmail);
             Intent int0 = new Intent(LoginActivity.this, MainActivity.class);
             int0.putExtra(M_EMAIL, mEmail);
             startActivity(int0);
@@ -352,5 +357,71 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
         }
     }
-}
 
+    protected void createDataTree(String mEmailTemp){
+
+        String mEmail = mEmailTemp.replace("@","-");
+        mEmail = mEmail.replace(".","-");
+        Firebase.setAndroidContext(this);
+        mFirebase = new Firebase("https://financeapp-7fbe1.firebaseio.com/users");
+
+        int zapasy = 0;
+        int zobBiez = 0;
+        int ao = 0;
+        int rmk = 0;
+        int srPien = 0;
+        int zyskBiez = 0;
+        int strata = 0;
+        int kw = 0;
+        int kup = 0;
+        int przychZeSprz = 0;
+        int a = 0;
+        int wf = 0;
+        int ilAkcji = 0;
+        int dywidendy = 0;
+        int cenaAkcji = 0;
+        int zobOg = 0;
+        int ko = 0;
+        int przecStanZapasow = 0;
+        int zobDl = 0;
+        int wfBrutto = 0;
+        int odsetki = 0;
+        int rataKap = 0;
+        int amortyzacja = 0;
+        int przecStanZob = 0;
+        int cfOP = 0;
+
+        Firebase userRef = mFirebase.child(mEmail);
+        user = new ResultModel(zapasy,
+                zobBiez,
+                ao,
+                rmk,
+                srPien,
+                zyskBiez,
+                strata,
+                kw,
+                kup,
+                przychZeSprz,
+                a,
+                wf,
+                ilAkcji,
+                dywidendy,
+                cenaAkcji,
+                zobOg,
+                ko,
+                przecStanZapasow,
+                zobDl,
+                wfBrutto,
+                odsetki,
+                rataKap,
+                amortyzacja,
+                przecStanZob,
+                cfOP);
+        userRef.setValue(user);
+
+    }
+
+    public static ResultModel getModel() {
+        return user;
+    }
+}

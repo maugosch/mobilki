@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import static com.example.sony.androidproject.LoginActivity.M_EMAIL;
-
 public class Modele extends AppCompatActivity {
     private String mEmail;
 
@@ -21,7 +19,7 @@ public class Modele extends AppCompatActivity {
 
 
         // Capture the layout's TextView and set the string as its text
-        TextView textView = (TextView) findViewById(R.id.wynik);
+        TextView textView = (TextView) findViewById(R.id.witaj);
         textView.setText("WITAJ " + mEmail);
     }
 
