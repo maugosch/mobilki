@@ -19,8 +19,8 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 3. Analiza sytuacji finansowej spółki na podstawie wprowadzonych danych
 
 ## Dokumentacja 
-+### Technologie wykorzystane w projekcie
- +Do przygotowania projektu "FinAnalyzer - analizator finansowy" zosały użyte następujące technologie: środowisko programistyczne Android Studio oraz język Java, Android SDK, Firebase, a także Google Services i Deign Support.
+### Technologie wykorzystane w projekcie
+Do przygotowania projektu "FinAnalyzer - analizator finansowy" zosały użyte następujące technologie: środowisko programistyczne Android Studio oraz język Java, Android SDK, Firebase, a także Google Services i Deign Support.
 ### Wykorzystane klasy
 
 W projekcie FinAnalyzer wykorzystano 18 klas Java:
@@ -76,6 +76,7 @@ Klasa, która służy do utworzenia struktury danych przechowywanych w Firebase.
 - public int amortyzacja;
 - public int przecStanZob;
 - public int cfOP;
+
 Ponadto	klasa zawiera kilka konstruktorów - do każdego rodzaju wskaźników jest odrębny konstruktor.
 Metody funkcji służą do połączenia danych z Firebase.
 #### 6. ResultModelForModels
