@@ -2,7 +2,6 @@
 
 ## Twórcy projektu
 Małgorzata Graja 166711 KrDZIs3012Io <br>
-Małgorzata Kindrat 186824 KrDZIs3012Io <br>
 Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 ## Funkcjonalności
