@@ -30,21 +30,23 @@ Klasa rozszerza klasę AppCompatActivity oraz implementuje LoaderCallbacks<Curso
 Wśród pól tej klasy przechowywane są przedewszystkim:
 - email użytkownika - public static final String M_EMAIL = "com.example.sony.androidproject.M_EMAIL",
 - model do tworzenia struktury bazy danych dla użytkownika na serwerze - public static ResultModel user,
+
 Najważniejsze metody klasy służą do:
 - obsługi logowania użytkownika - private void attemptLogin(),
 - utworzenia struktury bazy danych dla użytkownika - protected void createDataTree(String mEmailTemp)
 #### 2. MainActivity
 Klasa rozszerza klasę AppCompatActivity, zaś jej podstawowe pola to:
 - pola do przechowywania maila użytkownika -  private String mEmail,
+
 Klasa zawiera dwie metody:
--przekierowująca do widoku klasy obsługującej wskaźniki finansowe - public void wskaznikiFinansowe (View view),
--przekierowująca do widoku klasy obsługującej modele upadłościowe - public void modeleUpadlosci (View view)
+- przekierowująca do widoku klasy obsługującej wskaźniki finansowe - public void wskaznikiFinansowe (View view),
+- przekierowująca do widoku klasy obsługującej modele upadłościowe - public void modeleUpadlosci (View view)
 #### 3. MainMainActivity
 Klasa zawierająca menu z wieloma rodzajami wskaźników finansowych. Klasa rozszerza klasę AppCompatActivity. Metody klasy to klasy przekierowujące do konkretnych kwestionariuszy dotyczących danych wskaźników finanswocyh:
--public void plynnoscFinansowa(View view)
--public void wskaznikGieldowy(View view)
--public void wskaznikWyplacalnosci(View view)
--public void wskaznikRentownosci(View view)
+- public void plynnoscFinansowa(View view)
+- public void wskaznikGieldowy(View view)
+- public void wskaznikWyplacalnosci(View view)
+- public void wskaznikRentownosci(View view)
 #### 4. Modele
 Klasa rozszerza klasę AppCompatActivity i zawiera dwie metody przekierowujące do formularzy do odpowiednich modeli upadłościowych:
 - model amerykański - public void modelAltman(View view)
