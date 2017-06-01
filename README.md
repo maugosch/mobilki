@@ -96,6 +96,7 @@ Klasa zawiera pola przechowujące dane wpisane przez użytkownika w kwestionariu
 - private int wf;
 - private int stanSrA;
 - private int kosztSprz;
+
 Klasa zawiera 3 konstruktory - jeden do wywołania metody dataSnapshot.getValue() w celu odczytania danych z Firebase. Kolejne dwa konstruktory służą do obsługi zapisu danych z formularzy dotyczących modeli. Klasa zawiera również metody służacę do zwracania danych do Firebase.
 #### 7. ModelAltman
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
@@ -110,28 +111,28 @@ Klasa roszerza klasę AppCompatActivity oraz służy do wyświetlenia wyników o
 #### 11. PlynnoscFinansowa
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
 - służącą do obliczenia płynności finansowej - public void calculatePlynnosc(View view),
-- onCreate, która pobiera dane z Firebase i, jeśli dane zostały już wprowadzoen przez użytkownika, automatycznie uzupełnia formularz danymi.
+- onCreate, która pobiera dane z Firebase i, jeśli dane zostały już wprowadzone przez użytkownika, automatycznie uzupełnia formularz danymi.
 #### 12. PlynnoscFinansowa2
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
 - onCreate, która wyświetla wyniki obliczeń klasy PlynnoscFinansowa na ekranie.
 #### 13. WskaznikiGieldowe
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
 - służącą do obliczenia wskaźników giełdowych - public void calculate(View view),
-- onCreate, która pobiera dane z Firebase i, jeśli dane zostały już wprowadzoen przez użytkownika, automatycznie uzupełnia formularz danymi.
+- onCreate, która pobiera dane z Firebase i, jeśli dane zostały już wprowadzone przez użytkownika, automatycznie uzupełnia formularz danymi.
 #### 14. WskaznikiGieldowe2
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
 - onCreate, która wyświetla wyniki obliczeń klasy WskaznikiGieldowe na ekranie.
 #### 15. WskaznikRentownosci
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
 - służącą do obliczenia wskaźnikó rentowności - public void calculate(View view),
-- onCreate, która pobiera dane z Firebase i, jeśli dane zostały już wprowadzoen przez użytkownika, automatycznie uzupełnia formularz danymi.
+- onCreate, która pobiera dane z Firebase i, jeśli dane zostały już wprowadzone przez użytkownika, automatycznie uzupełnia formularz danymi.
 #### 16. WskaznikRentownosci2
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
 - onCreate, która wyświetla wyniki obliczeń klasy WskaznikRentownosci na ekranie.
 #### 17. WskaznikWyplacalnosci
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
 - służącą do obliczenia wskaźników ywpłacalności - public void calculate(View view),
-- onCreate, która pobiera dane z Firebase i, jeśli dane zostały już wprowadzoen przez użytkownika, automatycznie uzupełnia formularz danymi.
+- onCreate, która pobiera dane z Firebase i, jeśli dane zostały już wprowadzone przez użytkownika, automatycznie uzupełnia formularz danymi.
 #### 18. WskaznikWyplacalnosci2
 Klasa roszerza klasę AppCompatActivity oraz zawiera metodę:
 - onCreate, która wyświetla wyniki obliczeń klasy WskaznikWyplacalnosci na ekranie.
