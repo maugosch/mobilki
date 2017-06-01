@@ -30,7 +30,7 @@ public class ModelAltman extends AppCompatActivity {
         EditText editText = (EditText) findViewById(R.id.kapitalObrotowyNetto);
         int kon = Integer.parseInt(editText.getText().toString());
         editText = (EditText) findViewById(R.id.aktywaOgolem);
-        int ao = Integer.parseInt(editText.getText().toString());
+        int a = Integer.parseInt(editText.getText().toString());
         editText = (EditText) findViewById(R.id.zyskiZatrzymane);
         int zz = Integer.parseInt(editText.getText().toString());
         editText = (EditText) findViewById(R.id.ebit);
@@ -43,11 +43,18 @@ public class ModelAltman extends AppCompatActivity {
         int zobOg = Integer.parseInt(editText.getText().toString());
 
         Firebase userRef = mFirebase.child("users/" + mEmail + "/ModelA");
-        ResultModelForModels user = new ResultModelForModels(kon, ao, zz, ebit, przychZeSprz, kw, zobOg);
+        ResultModelForModels user = new ResultModelForModels(kon, a, zz, ebit, przychZeSprz, kw, zobOg);
         userRef.setValue(user);
+
+        double z = 0.717*(double)kon/(double)a + 0.847*(double)zz/(double)a + 3.107*(double)ebit/(double)a +
+                0.42*(double)kw/(double)zobOg + 0.998*(double)przychZeSprz/(double)a;
+        String zS = String.valueOf(z);
+
 
         Intent int1 = new Intent(ModelAltman.this, ModelAltman2.class);
         int1.putExtra("the email", mEmail);
+        int1.putExtra("zet", zS);
+
         startActivity(int1);
     }
 

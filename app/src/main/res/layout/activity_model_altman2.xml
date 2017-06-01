@@ -19,7 +19,7 @@
         tools:layout_editor_absoluteY="318dp" />
 
     <TextView
-        android:id="@+id/textView35"
+        android:id="@+id/zetA"
         android:layout_width="135dp"
         android:layout_height="55dp"
         android:text="TextView"

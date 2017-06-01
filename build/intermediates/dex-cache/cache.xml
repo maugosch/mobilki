@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="C:\And\Nowy folder\mobilki\app\libs\firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b54cf0400e2248d6c133c7b0a77dea1be09978cc">
+        <dex dex="C:\And\Nowy folder\mobilki\app\build\intermediates\pre-dexed\debug\firebase-client-android-2.5.2_056dc5d23ca85892cd40f6cb3555fdad08a6e2f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\And\nowyBartka\mobilki\app\libs\firebase-client-android-2.5.2.jar"
         jumboMode="false"
         optimize="true"

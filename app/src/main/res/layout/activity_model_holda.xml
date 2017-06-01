@@ -32,7 +32,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/sprzedaz"
-                android:text="Koszty własne sprrzedaży"
+                android:hint="Koszty własne sprzedaży"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -43,7 +43,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/stanSredniAktywow"
-                android:text="Sprzedaż"
+                android:hint="Sprzedaż"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -54,7 +54,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/textView5"
-                android:text="Aktywa obrotowe"
+                android:hint="Aktywa obrotowe"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -65,7 +65,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/wynikNetto"
-                android:text="Stan średni aktywów"
+                android:hint="Stan średni aktywów"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -76,7 +76,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/zobowiazaniaKrotkoterminowe"
-                android:text="Zobowiązania"
+                android:hint="Zobowiązania"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -87,7 +87,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/zobowiazania"
-                android:text="Aktywa"
+                android:hint="Aktywa"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -98,7 +98,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/aktywaObrotowe"
-                android:text="Zobowiązania krótkoterminowe"
+                android:hint="Zobowiązania krótkoterminowe"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
 
@@ -109,7 +109,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/aktywaHolda"
-                android:text="Wynik netto"
+                android:hint="Wynik netto"
                 android:textColor="@android:color/background_light"
                 android:textSize="14sp" />
         </LinearLayout>

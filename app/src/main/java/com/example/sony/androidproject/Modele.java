@@ -17,10 +17,6 @@ public class Modele extends AppCompatActivity {
         Intent intent = getIntent();
         mEmail = intent.getStringExtra("the email");
 
-
-        // Capture the layout's TextView and set the string as its text
-        TextView textView = (TextView) findViewById(R.id.witaj);
-        textView.setText("WITAJ " + mEmail);
     }
 
     public void modelAltman(View view) {

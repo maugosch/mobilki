@@ -48,8 +48,17 @@ public class ModelHolda extends AppCompatActivity {
         ResultModelForModels user = new ResultModelForModels(ao, zobKr, zobOg, a, wf, stanSrA, kosztSprz, przychZeSprz);
         userRef.setValue(user);
 
+        double z = 0.605 + 0.681 * (double)ao/(double)zobKr - 0.0196 * (double)zobOg/(double)a
+                + 0.00969 * (double)wf/(double)stanSrA + 0.000672 * (double)zobKr*360/(double)kosztSprz
+                + 0.157 * (double)przychZeSprz/(double)stanSrA;
+        String zS = String.valueOf(z);
+
+
         Intent int1 = new Intent(ModelHolda.this, ModelHolda2.class);
         int1.putExtra("the email", mEmail);
+        int1.putExtra("zet", zS);
+
         startActivity(int1);
+
     }
 }

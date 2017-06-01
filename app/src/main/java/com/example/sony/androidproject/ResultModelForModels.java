@@ -23,9 +23,9 @@ public class ResultModelForModels {
     public ResultModelForModels(){    }
 
     //Altman 7 danych
-    public ResultModelForModels(int kon, int ao,int zz, int ebit, int przychZeSprz, int kw, int zobOg) {
+    public ResultModelForModels(int kon, int a,int zz, int ebit, int przychZeSprz, int kw, int zobOg) {
         this.zobOg = zobOg;
-        this.ao = ao;
+        this.a = a;
         this.kw = kw;
         this.przychZeSprz = przychZeSprz;
         this.kon = kon;
