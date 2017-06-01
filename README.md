@@ -22,7 +22,7 @@ Bartłomiej Korytkowski 186932 KrDZIs3012Io
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/3.png"/><br>
+<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/3.png"/>
 </p>
 
 Aktywność pozwalająca na zalogowanie się uzytkownika do aplikacji wpisując swój adres e-mail oraz hasło posiadające minimum 6 znaków.
@@ -31,7 +31,7 @@ Aktywność pozwalająca na zalogowanie się uzytkownika do aplikacji wpisując 
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/2.png"/><br>
+<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/2.png"/>
 </p>
 
 1. Wskaźniki finansowe - umożliwia przejście do nowej aktywności w celu ułatwienia wprowadzania danych w szczegółowych wskaźnikach takich jak: 
@@ -48,7 +48,7 @@ Aktywność pozwalająca na zalogowanie się uzytkownika do aplikacji wpisując 
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/4.png"/><br>
+<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/4.png"/>
 </p>
 
 
@@ -57,7 +57,7 @@ Możliwość wybrania odpowiedniego dla użytownika wskażnika finansowego w cel
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/5.png"/><br>
+<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/5.png"/>
 </p>
 
 1. Płynność finansowa - posiada wymagane pola do których należy wpisać takie dane jak: zapasy, zobowiązania bieżące, aktywa obrotowe, krótkoterminowe rozliczenie okresowe, środki pieniężne i inne aktywa pieniężne. Za pomocą tego możliwe jest obliczenie: wskażnika płynności bieżącej, wskaźnika szybkiej płynności, wskażnik zaostrzonej płynności.
@@ -74,7 +74,7 @@ Po wpisaniu i zatwierdzeniu wpisanych liczb baza danych dostaje te dane od aplik
 
 <p align="center">
 
-<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/9.png"/><br>
+<img src="https://raw.githubusercontent.com/maugosch/mobilki/master/screenshots/9.png"/>
 </p>
 
 
